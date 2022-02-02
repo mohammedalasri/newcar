@@ -1,0 +1,130 @@
+
+
+.ho:hover{
+    background-color: rgb(104, 200, 218);
+  
+    
+
+}
+.sho:hover{
+   
+    background-color: rgb(104, 200, 218);
+  
+}
+.pea:hover{
+    background-color: rgb(104, 200, 218);
+}
+.moh{
+    text-align: center;
+  background: rgb(92, 100, 92);
+  color: bisque;
+  
+}
+
+
+.container{
+    background: rgb(83, 85, 73);
+}
+.container:hover{
+    background: rgb(168, 147, 132);
+    
+}
+.carousel-indicators{
+    background-color: rgb(66, 96, 192);
+}
+.tit{
+    background-color: rgb(187, 203, 206);
+}
+
+.card-body{
+    background-color: rgb(224, 216, 216);
+}
+
+.card-body:hover{
+    background-color: rgb(163, 185, 185);
+}
+
+
+#colo{
+    background-color: rgb(209, 206, 224);
+}
+.containerr{
+    
+  background-color: rgb(77, 105, 104);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+padding-left: 100px;
+
+color: rgb(199, 99, 99);
+
+}
+
+
+
+
+.card-footer:hover{
+    background-color: rgb(211, 224, 228);
+}
+.bote{
+    color: #000;
+}
+.form-control{
+    border: 2px solid red;
+}
+#alam{
+    text-align: center;
+}
+.marquee{
+    background-color: rgb(37, 109, 192);
+    font-size: 30px;
+}
+
+.mom a{
+    background-color: rgb(255, 153, 0);
+    background: rgb(224, 226, 231);
+}
+.img2{
+    height: 200px;
+}
+.img3{
+    height: 200px;
+}
+.img4{
+    height: 200px;
+}
+.img5{
+    height: 200px;
+}
+.img7{
+    height: 200px;
+}
+.img8{
+    height: 200px;
+}
+.img9{
+    height: 200px;
+}
+
+
+
+.about{
+
+    background-color: rgb(99, 156, 156);
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    color: rgb(7, 7, 6);
+    
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bo/bootstrap.min.css">
+  <script src="bo/bootstrap.min.js"></script>
+  
+</head>
+
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+  
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <div class="ho"><li><a href="index.html" class="nav-link px-2 text-secondary">الصفحة الرئيسية</a></li></div>
+            <div class="sho"><li><a href="show.html" class="nav-link px-2 text-white">العروض</a></li></div>
+            <div class="pea"><li><a href="pearch.html" class="nav-link px-2 text-white">الشراء</a></li></div>
+            <div class="pea"><li><a href="singin.html" class="nav-link px-2 text-white">لعرض سياراتك</a></li></div>
+            <div class="pea"><li><a href="about.html" class="nav-link px-2 text-white">نبذة عن الموقع</a></li></div>
+        
+        </ul>
+  
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+        </form>
+  
+        <div class="text-end">
+          <button type="search" class="btn btn-outline-light me-2">بحث</button>
+    
+        </div>
+      </div>
+    </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+    <div class="containerr" id="perch" >
+        <main>
+          <div class="py-5 text-cen">
+            
+            <h2 >نموذج اتمام البيع</h2>
+            
+          </div>
+      <br>
+          
+            <div class="col-md-7 col-lg-8">
+              <h4 class="mb-3">عنوان العرض</h4>
+              <form class="needs-validation" novalidate>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">الاسم الأول</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                      يرجى إدخال اسم أول صحيح.
+                    </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">اسم العائلة</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                      يرجى إدخال اسم عائلة صحيح.
+                    </div>
+                  </div>
+      
+      
+                  <div class="col-12">
+                    <label for="email" class="form-label">البريد الإلكتروني <span class="text-muted">(اختياري)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      يرجى إدخال عنوان بريد إلكتروني صحيح لتصلكم تحديثات الشحن.
+                    </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <label for="address" class="form-label">العنوان</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 الشارع الأول" required>
+                    <div class="invalid-feedback">
+                      يرجى إدخال عنوان الشحن الخاص بك.
+                    </div>
+                  </div>
+      
+                 
+      
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">البلد</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">اختر...</option>
+                      <option>اليمن</option>
+                      <option>السعوديه</option>
+                      <option>مصر</option>
+                      <option>الأردن</option>
+                      <option>افغانستان</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      يرجى اختيار بلد صحيح.
+                    </div>
+                  </div>
+      
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">المنطقة</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">اختر...</option>
+                      <option>عمان</option>
+                      <option>الرياض</option>
+                      <option>القاهرة</option>
+                      <option>صنعاء</option>
+                      <option>ارتيريا</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      يرجى اختيار اسم منطقة صحيح.
+                    </div>
+                  </div>
+      
+      
+             
+      
+         
+      
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <label for="cc-name" class="form-label">الاسم على البطاقة</label>
+                    <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                    <small class="text-muted">الاسم الكامل كما هو معروض على البطاقة</small>
+                    <div class="invalid-feedback">
+                      الاسم على البطاقة مطلوب
+                    </div>
+                  </div>
+      
+                  <div class="col-md-6">
+                    <label for="cc-number" class="form-label">رقم البطاقة</label>
+                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                    <div class="invalid-feedback">
+                      رقم بطاقة الائتمان مطلوب
+                    </div>
+                  </div>
+      
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-name" class="form-label">اسم السياره</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                      <small class="text-muted"></small>
+                      <div class="invalid-feedback">
+                       
+                      </div>
+                    </div>
+  
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">موديل السيارة</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">سعر السيارة</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        
+                      </div>
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                        <label for="cc-number" class="form-label">رقم التلفون</label>
+                        <input type="number" class="form-control" id="cc-number" placeholder="" required>
+                        <div class="invalid-feedback">
+                          
+                        </div>
+                      </div>
+        
+        
+
+
+                    <h2>صور السيارة</h2><br>
+                    <label for="files">اختار ملف الصور:</label><br><br>
+                    <input type="file" id="files" name="files" multiple><br><br>
+
+
+
+
+
+
+      
+      
+                <hr class="my-4">
+      
+                <button class="w-100 btn btn-primary btn-lg" type="submit">تسجيل</button>
+              </form>
+            </div>
+          </div>
+        </main>
+      
+      </div>
+  <br>
+</html>  
